@@ -1,10 +1,8 @@
-# ISR upgrade feed
+# ISR upgrade feed — retired
 
-Sealed upgrade payloads for Influx Smart Router.
+This repository no longer carries release payloads. ISR releases, installers and
+signed image tarballs are published at
+https://github.com/M617263Kaplan/influxdb-smart-router/releases, and ISR reads
+that repository's releases API directly for in-app updates.
 
-Every asset here is encrypted and signed. Opening one requires the per-release
-key published on the corresponding private release, so these files are inert
-without an existing entitlement to ISR. They are not installers, and there is
-nothing here to download by hand.
-
-ISR reads this repository's releases API directly.
+There is nothing here to download.
